@@ -1,0 +1,73 @@
+
+.judulgallery p
+{
+    margin-top: 20px;
+    background-color: black;
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 3px gray;
+}
+
+.foto img
+{
+    grid-area: foto;
+    margin: 30px 0;
+    box-shadow: 10px 10px 8px #101013;
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+.foto
+{
+    display: grid;
+    grid-template-areas: 
+    "foto foto";
+    justify-items: center;
+}
+
+.foto-gallery
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+
+@media(max-width:500px)
+{
+    .judulgallery
+    {
+        margin-top: 10px;
+    }
+    .judulgallery p
+    {
+        font-size: 10px;
+        width: 100px;
+        height: 25px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .foto img
+    {
+        margin: 20px 0;
+        width: 150px;
+        height: auto;
+        margin-top: 0px;
+        box-shadow: 5px 5px 5px #101013;
+    }
+
+    .foto-gallery
+    {
+        margin-bottom: 10px;
+    }
+
+}

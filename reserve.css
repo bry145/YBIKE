@@ -1,0 +1,97 @@
+.detailorder {
+    display: flex;   
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.produk
+{
+    display: flex;
+    
+}
+.pilihvixian, .pilihkawasako
+{
+    margin: 20px 10px;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px gray;
+
+}
+.pilihvixian p, .pilihkawasako p{
+    color: red;
+}
+
+input.check-colour, label.check-colour span {
+	position:absolute;
+	left:-999em;
+}
+label.check-colour {
+    margin-bottom: 20px;
+	width: 55px;
+	height:55px;
+	float:left;
+	cursor:pointer;
+}
+.black, .green {
+    margin-bottom: 5px;
+    border-radius: 25px;
+    border-style: none;
+    margin: 5px;
+}
+.black{
+    background: black;
+}
+.green {
+    
+    background: green;
+}
+
+
+input.check-colour:checked + label {
+	outline:3px solid red;
+	position:relative;
+  overflow:hidden;
+  z-index:4;
+}
+
+.color
+{
+    display: flex ;
+    justify-content: center;
+}
+.nextbuttonform {
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 550px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nextbuttonform a {
+   color: red;
+}
+
+
+.buttonquantity {
+    text-align: center;
+}
+
+@media(max-width:500px){
+    .nextbuttonform {
+        margin-left: 200px;
+    }
+
+}
+
+
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reserve.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="script.js" defer></script>
+    <title>YBIKE</title>
+</head>
+<body>
+    <header>
+        <div class="headertext">
+            <h3>YBIKE motorcycle dealer since 2016 </h3>
+        </div>
+        
+    </header>
+    <nav>
+        
+        <div class="navbar">
+            <img src="image/logo.png" alt="Logo YBIKE" >
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Product 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="vixian.html">Vixian</a>
+                <a href="kawasako.html">Kawasako</a>
+              </div>
+            </div> 
+            <a href="gallery.html">Gallery</a>
+            <a href="reserve.html">Reserve</a>
+            
+        </div>
+        <div class="profile">
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </nav>
+
+    <main>
+        <div class="detailorder">
+            <div class="produk">
+                <div class="pilihvixian">
+                    <p>Vixian</p>
+                    <br>
+                    <div>
+                        <input  class="merk" type="radio"  name="pilihan" id="vixian" value="vixian">
+                        <label class="merk vixian" for="vixian"><span>All New Vixian</span></label>
+                    </div>
+                    <div>
+                        <input  class="merk " type="radio"  name="pilihan" id="vixian" value="vixian">
+                        <label class="merk vixian"  for="vixian"><span>Vixian R</span></label>
+                    </div>
+                    <div>
+                        <input  class="merk " type="radio"  name="pilihan" id="vixian" value="vixian">
+                        <label class="merk vixian"  for="vixian"><span>Vixian OtoGP</span></label>
+                    </div>
+                </div>
+                
+                <div class="pilihkawasako">
+                    <p>Kawasako</p>
+                    <br>
+                    <div>
+                        <input  class="merk" type="radio"  name="pilihan" id="kawasako" value="kawasako">
+                        <label class="merk kawasako" for="kawasako"><span>Ninja 250SL</span></label>
+                    </div>
+                    <div>
+                        <input  class="merk " type="radio"  name="pilihan" id="kawasako" value="kawasako">
+                        <label class="merk kawasako"  for="kawasako"><span>D-Tracker</span></label>
+                    </div>
+                    <div>
+                        <input  class="merk " type="radio"  name="pilihan" id="kawasako" value="kawasako">
+                        <label class="merk kawasako"  for="kawasako"><span>z125 Pro</span></label>
+                    </div>
+                </div>
+                
+
+            </div>
+            <p>Choose Color</p>
+            <div class="color">
+                
+                    <div>
+                        <input  class="check-colour" type="radio" name="colours" id="black" value="black">
+                        <label class="check-colour black" for="black"><span>black</span></label>
+                    </div>
+                    <div>
+                        <input  class="check-colour " type="radio" name="colours" id="green" value="green">
+                        <label class="check-colour green"  for="green"><span>green</span></label>
+                    </div>
+                
+            </div>
+            <p>Input Quantity</p>
+            <div id="buttonquantity">
+                <button onclick="decrement()">-</button>
+                <input  type="number" id="inputquantity" min=0 max=99>
+                <button onclick="increment()">+</button>
+            </div>
+
+            <div class="nextbuttonform">
+                <a href="form.html">Next</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="facebook">
+            <i class="fab fa-facebook-square"></i>
+            <p>FACEBOOK</p>
+        </div>
+        <div class="instagram">
+            <i class="fab fa-instagram-square"></i>
+            <p>INSTAGRAM</p>
+        </div>
+    </footer>
+    
+    
+    
+</body>
+</html>

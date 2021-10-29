@@ -1,0 +1,61 @@
+.headermain {
+  text-align: center;
+}
+
+.Formalamat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Formalamat>form{
+    background-color: whitesmoke;
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.detailalamat{
+    margin-top: 10px;
+    padding-left:4px;
+    width: 98%;
+    margin-bottom: 15px;
+}
+
+.texterror {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.formcontrol{
+    width: 100%;
+}
+
+.submitdetail
+{
+    display: flex;
+    justify-content: right;
+}
+
+
+button[type=submit] {
+    background-color: black;
+    border-radius: 8px;
+    border-style: none;
+    text-decoration: none;
+    color: red;
+    width: 100px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+#error {
+    color: red;
+}
+
+
+
+
